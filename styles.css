@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  height: 60px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 100px;
+  gap: 50px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero p {
+  color: rgb(199, 199, 199);
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.hero button {
+  width: 120px;
+  height: 36px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hero img {
+  width: 400px;
+}
+
+.services {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 160px;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageplaceholder {
+  height: 150px;
+  width: 150px;
+  border: 3px solid blue;
+  border-radius: 15px;
+}
+
+.item p {
+  max-width: 150px;
+  color: rgb(76, 76, 76);
+}
+
+h2 {
+  margin: 30px 0;
+  font-size: 35px;
+}
+
+.quote {
+  background-color: gainsboro;
+  height: 300px;
+  padding: 100px 180px;
+  box-sizing: border-box;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+#name {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 140px;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  border-radius: 15px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.cta-container h4 {
+  font-size: 17px;
+}
+
+.cta-container p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 6px;
+}
+
+.cta-container button {
+  background: none;
+  color: white;
+  border: 2px solid white;
+  width: 100px;
+  height: 36px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
